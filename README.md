@@ -8,3 +8,5 @@
 7.   ![alt text](./Pictures/2vgs-lvs.png)
 8.   Увеличим **/dev/dzeh/test** и сделаем  resize2fs (resize файловой системы)
 9.   ![alt text](./Pictures/3resize2fs.png)
+10.   Далее нужно уменьшить существующий **LV** с помощью команды **lvreduce**, но перед этим необходимо отмонтировать файловую систему, проверить её на ошибки и уменьшить ее размер:
+11.   ![alt text](./Pictures/3lvreduce.png)
