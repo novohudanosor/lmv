@@ -6,6 +6,5 @@
 5.  Далее из директории lvm поднимаем виртуальную машину **vagrant up**
 6.  
 ```yaml
-
 vagrant plugin list
 ```
