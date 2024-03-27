@@ -7,4 +7,5 @@
 4. ``` chroot /mnt/ ```
 5. ``` grub2-mkconfig -o /boot/grub2/grub.cfg ```
 6. в файле **/boot/grub2/grub.cfg** заменить **rd.lvm.lv=VolGroup00/LogVol00** на **rd.lvm.lv=vg_root/lv_root**
+7. ![alt text](./hwpic/1lsblk.png)
 
