@@ -6,3 +6,5 @@
 5.  ![alt text](./Pictures/11vgs-lvs.png)
 6.  Расширение LVM  и Сымитируем занятое место с помощью команды **dd** для большей наглядности
 7.   ![alt text](./Pictures/2vgs-lvs.png)
+8.   Увеличим **/dev/dzeh/test** и сделаем  resize2fs (resize файловой системы)
+9.   ![alt text](./Pictures/3resize2fs.png)
