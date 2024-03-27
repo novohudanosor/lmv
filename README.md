@@ -1,5 +1,5 @@
 # lmv
-1. проверяем наличие Vagrant plugins командой
+1. проверяем наличие Vagrant plugins командой ``` vagrant plugin list ```
 2. ```yaml
  vagrant plugin list
  ```
