@@ -26,7 +26,10 @@
 3.   Правим fstab для автоматического монтирования /var:  ``` [root@lvm boot]# echo "`blkid | grep var: | awk '{print $2}'` /var ext4 defaults 0 0" >> /etc/fstab ```   и **перезагружаемся**
 4.   Удаляем временную Volume Group:
 5.   ![alt text](./hwpic/2lvremove.png)
-6.   
+### Выделить том под /home
+1. Выделяем том под /home  --> Правим fstab для автоматического монтирования /home:
+2. ![alt text](./hwpic/3home.png)
+3. 
 
 
  
