@@ -8,4 +8,6 @@
 5. ``` grub2-mkconfig -o /boot/grub2/grub.cfg ```
 6. в файле **/boot/grub2/grub.cfg** заменить **rd.lvm.lv=VolGroup00/LogVol00** на **rd.lvm.lv=vg_root/lv_root**
 7. ![alt text](./hwpic/1lsblk.png)
-
+удаляем старый LV размером в 40G и создаём новый на 8G:
+``` lvremove /dev/VolGroup00/LogVol00 ```
+![alt text](./hwpic/1lvremove.png)
