@@ -20,3 +20,5 @@
 17.  ``` chroot /mnt/ ```
 18.  ``` grub2-mkconfig -o /boot/grub2/grub.cfg ```
 19.  ![alt text](./hwpic/1done.png)
+### Выделить том под /var в зеркало
+20. 
