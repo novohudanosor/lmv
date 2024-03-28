@@ -14,4 +14,4 @@
 11.  ``` mkfs.xfs /dev/VolGroup00/LogVol00 ```
 12.  ``` mount /dev/VolGroup00/LogVol00 /mnt ```
 13.  ``` xfsdump -J - /dev/vg_root/lv_root | \ xfsrestore -J - /mnt ```
-14.  ![alt text](./hwpic/1SUCCESS.png)
+14.  ![alt text](./hwpic/SUCCESS.png)
