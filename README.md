@@ -15,3 +15,8 @@
 12.  ``` mount /dev/VolGroup00/LogVol00 /mnt ```
 13.  ``` xfsdump -J - /dev/vg_root/lv_root | \ xfsrestore -J - /mnt ```
 14.  ![alt text](./hwpic/SUCCESS.png)
+15.  Сконфигурируем grub, за исключением правки /etc/grub2/grub.cfg
+16.  ``` for i in /proc/ /sys/ /dv/ /run/ /boot/; do mount --bind $i /mnt/$i; done ```
+17.  ``` chroot /mnt/ ```
+18.  ``` grub2-mkconfig -o /boot/grub2/grub.cfg ```
+19.  ![alt text](./hwpic/1done.png)
