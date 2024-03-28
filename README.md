@@ -29,7 +29,17 @@
 ### Выделить том под /home
 1. Выделяем том под /home  --> Правим fstab для автоматического монтирования /home:
 2. ![alt text](./hwpic/3home.png)
-3. 
+### Работа со снапшотами
+1. Генерируем файлы в /home/:
+2. ``` touch /home/file{1..20} ```
+3. Снять снапшот
+4. ``` lvcreate -L 100MB -s -n home_snap /dev/VolGroup00/LogVol_Home ```
+5.  Удалим часть файлов
+6.  ``` rm -f /home/file{11..20} ```
+7.  Восстановления из снапшота:
+8.  ![alt text](./hwpic/snap.png)
+
+
 
 
  
