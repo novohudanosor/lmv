@@ -24,6 +24,9 @@
 1.  На свободных дисках создаем зеркало -->  Создаем на нем ФС и перемещаем туда /var: --> Ну и монтируем новый var в каталог /var:
 2.  ![alt text](./hwpic/2var.png)
 3.   Правим fstab для автоматического монтирования /var:  ``` [root@lvm boot]# echo "`blkid | grep var: | awk '{print $2}'` /var ext4 defaults 0 0" >> /etc/fstab ```   и **перезагружаемся**
-4.   
+4.   Удаляем временную Volume Group:
+5.   ![alt text](./hwpic/2lvremove.png)
+6.   
+
 
  
